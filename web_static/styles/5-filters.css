@@ -26,35 +26,29 @@
     opacity: 90%
 }
 
+.locations, .amenities {
+    height: 100%;
+    width: 25%;
+    text-align: left;
+    margin-left: 40px;
+    float: left;
+}
+
 .locations {
-    height: 100%;
-    width: 25%;
     border-right: 1px solid #dddddd;
-    order: 0;
-    text-align: left;
-    margin-left: 40px;
-    float: left;
+    padding: 0;
 }
 
-.amenities {
-    height: 100%;
-    width: 25%;
-    order: 1;
-    text-align: left;
-    margin-left: 40px;
-    float: left;
-}
-
-.amenities h3, 
-.location h3 {
+h3.locations, 
+h3.amenities {
     font-weight: 600;
-    margin-left: 30px;
-    margin-bottom: 5px;
+    margin-left: 0px;
+    margin: 0px;
 }
 
-.amenities h4,
-.locations h4 {
+h4.amenities,
+h4.locations {
     font-weight: 400;
     font-size: 14px;
-    margin: 0 auto;
+    margin: 0px;
 }
