@@ -1,14 +1,18 @@
 header {
     height: 70px;
     width: 100%;
+    verticle-align: middle;
     border-bottom: 1px solid #cccccc;
     background-color: #fff;
 }
 
 .logo {
     background-position: left;
-    display: block;
-    height: 100%;
+    background-size: contain;
+    width: 160px;
+    height: 60px;
     margin-left: 20px;
+    padding: 0;
     background: url("../images/logo.png") no-repeat;
+    vertical-align: middle;
 }
